@@ -28,7 +28,7 @@ ui <- fluidPage(theme = shinytheme('slate'),
       # Input: Selector for variable to indicate girl's name ----
       selectInput('girl_name', 'Girl\'s Name:', # format: 'variable_name_for_server_use', 'What the user sees'
                   c('Annie' = 'Annie',          # 'Option the user sees', 'what_the_server_uses'
-                    'Bertha' = 'Bertha',
+                    'B' = 'Bertha',
                     'Chloe' = 'Chloe', 
                     'Dorothy' = 'Dorothy', 
                     'Effie' = 'Effie', 
